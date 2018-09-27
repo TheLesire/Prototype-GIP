@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class RigidbodyCharacter : MonoBehaviour
 {
-
     public float Speed = 5f;
     public float JumpHeight = 2f;
     public float GroundDistance = 0.2f;
