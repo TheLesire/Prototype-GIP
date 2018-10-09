@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RigidbodyCharacter : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     public float Speed = 5f;
     public float JumpHeight = 2f;
@@ -24,8 +24,6 @@ public class RigidbodyCharacter : MonoBehaviour
     void Update()
     {
         _isGrounded = Physics.CheckSphere(_groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
-
-
         _inputs = Vector3.zero;
         _inputs.x = Input.GetAxis("Horizontal");
         _inputs.z = Input.GetAxis("Vertical");
