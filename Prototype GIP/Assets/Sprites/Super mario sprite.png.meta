@@ -7,10 +7,10 @@ TextureImporter:
     21300004: Super mario sprite_2
     21300006: Super mario sprite_3
     21300008: Super mario sprite_4
-    21300010: Super mario sprite_5
-    21300012: Super mario sprite_6
+    21300010: Gumba_1
+    21300012: Gumba_2
     21300014: Super mario sprite_7
-    21300016: Super mario sprite_8
+    21300016: Gumba_3
     21300018: Super mario sprite_9
     21300020: Super mario sprite_10
     21300022: Super mario sprite_11
@@ -431,7 +431,7 @@ TextureImporter:
     21300852: Super mario sprite_426
     21300854: Super mario sprite_427
     21300856: Super mario sprite_428
-    21300858: Super mario sprite_429
+    21300858: Coin
     21300860: Super mario sprite_430
     21300862: Super mario sprite_431
     21300864: Super mario sprite_432
@@ -620,6 +620,11 @@ TextureImporter:
     21301230: Super mario sprite_615
     21301232: Super mario sprite_616
     21301234: Super mario sprite_617
+    21301236: Super mario sprite_150
+    21301238: Super mario sprite_180
+    21301240: Super mario sprite_181
+    21301242: Super mario sprite_182
+    21301244: Super mario sprite_184
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -705,10 +710,10 @@ TextureImporter:
       name: Super mario sprite_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 677
-        width: 32
-        height: 32
+        x: 6
+        y: 630
+        width: 139
+        height: 93
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -785,10 +790,10 @@ TextureImporter:
       name: Super mario sprite_4
       rect:
         serializedVersion: 2
-        x: 140
-        y: 677
-        width: 32
-        height: 32
+        x: 157
+        y: 676
+        width: 139
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -802,13 +807,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Super mario sprite_5
+      name: Gumba_1
       rect:
         serializedVersion: 2
-        x: 172
+        x: 156
         y: 677
-        width: 32
-        height: 32
+        width: 48
+        height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,13 +827,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Super mario sprite_6
+      name: Gumba_2
       rect:
         serializedVersion: 2
         x: 204
         y: 677
-        width: 32
-        height: 32
+        width: 46
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -862,13 +867,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Super mario sprite_8
+      name: Gumba_3
       rect:
         serializedVersion: 2
-        x: 268
+        x: 249
         y: 677
-        width: 32
-        height: 32
+        width: 47
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -885,10 +890,10 @@ TextureImporter:
       name: Super mario sprite_9
       rect:
         serializedVersion: 2
-        x: 300
-        y: 677
-        width: 32
-        height: 32
+        x: 311
+        y: 683
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -905,10 +910,10 @@ TextureImporter:
       name: Super mario sprite_10
       rect:
         serializedVersion: 2
-        x: 332
-        y: 677
-        width: 32
-        height: 32
+        x: 357
+        y: 685
+        width: 70
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -925,10 +930,10 @@ TextureImporter:
       name: Super mario sprite_11
       rect:
         serializedVersion: 2
-        x: 364
-        y: 677
-        width: 32
-        height: 32
+        x: 311
+        y: 599
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -945,10 +950,10 @@ TextureImporter:
       name: Super mario sprite_12
       rect:
         serializedVersion: 2
-        x: 396
-        y: 677
-        width: 32
-        height: 32
+        x: 397
+        y: 624
+        width: 217
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,10 +970,10 @@ TextureImporter:
       name: Super mario sprite_13
       rect:
         serializedVersion: 2
-        x: 428
-        y: 677
-        width: 32
-        height: 32
+        x: 433
+        y: 684
+        width: 118
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1046,9 +1051,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 556
-        y: 677
-        width: 32
-        height: 32
+        y: 684
+        width: 157
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1086,9 +1091,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 620
-        y: 677
-        width: 32
-        height: 32
+        y: 570
+        width: 109
+        height: 109
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1145,10 +1150,10 @@ TextureImporter:
       name: Super mario sprite_22
       rect:
         serializedVersion: 2
-        x: 716
-        y: 677
-        width: 32
-        height: 32
+        x: 717
+        y: 696
+        width: 254
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1165,10 +1170,10 @@ TextureImporter:
       name: Super mario sprite_23
       rect:
         serializedVersion: 2
-        x: 748
-        y: 677
-        width: 32
-        height: 32
+        x: 827
+        y: 574
+        width: 24
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1245,10 +1250,10 @@ TextureImporter:
       name: Super mario sprite_27
       rect:
         serializedVersion: 2
-        x: 876
-        y: 677
-        width: 32
-        height: 32
+        x: 886
+        y: 653
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1385,10 +1390,10 @@ TextureImporter:
       name: Super mario sprite_34
       rect:
         serializedVersion: 2
-        x: 140
-        y: 645
-        width: 32
-        height: 32
+        x: 157
+        y: 599
+        width: 70
+        height: 70
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1425,10 +1430,10 @@ TextureImporter:
       name: Super mario sprite_36
       rect:
         serializedVersion: 2
-        x: 204
-        y: 645
-        width: 32
-        height: 32
+        x: 235
+        y: 599
+        width: 70
+        height: 70
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1865,10 +1870,10 @@ TextureImporter:
       name: Super mario sprite_58
       rect:
         serializedVersion: 2
-        x: 908
-        y: 645
-        width: 32
-        height: 32
+        x: 933
+        y: 642
+        width: 20
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1905,10 +1910,10 @@ TextureImporter:
       name: Super mario sprite_60
       rect:
         serializedVersion: 2
-        x: 12
-        y: 613
-        width: 32
-        height: 32
+        x: 6
+        y: 562
+        width: 119
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2445,10 +2450,10 @@ TextureImporter:
       name: Super mario sprite_87
       rect:
         serializedVersion: 2
-        x: 876
-        y: 613
-        width: 32
-        height: 32
+        x: 899
+        y: 618
+        width: 30
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2465,10 +2470,10 @@ TextureImporter:
       name: Super mario sprite_88
       rect:
         serializedVersion: 2
-        x: 908
-        y: 613
-        width: 32
-        height: 32
+        x: 931
+        y: 612
+        width: 26
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2485,10 +2490,10 @@ TextureImporter:
       name: Super mario sprite_89
       rect:
         serializedVersion: 2
-        x: 940
-        y: 613
-        width: 32
-        height: 32
+        x: 959
+        y: 618
+        width: 30
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2565,10 +2570,10 @@ TextureImporter:
       name: Super mario sprite_93
       rect:
         serializedVersion: 2
-        x: 108
-        y: 581
-        width: 32
-        height: 32
+        x: 166
+        y: 479
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2705,10 +2710,10 @@ TextureImporter:
       name: Super mario sprite_100
       rect:
         serializedVersion: 2
-        x: 332
-        y: 581
-        width: 32
-        height: 32
+        x: 337
+        y: 552
+        width: 157
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2805,10 +2810,10 @@ TextureImporter:
       name: Super mario sprite_105
       rect:
         serializedVersion: 2
-        x: 492
-        y: 581
-        width: 32
-        height: 32
+        x: 500
+        y: 552
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2845,10 +2850,10 @@ TextureImporter:
       name: Super mario sprite_107
       rect:
         serializedVersion: 2
-        x: 556
-        y: 581
-        width: 32
-        height: 32
+        x: 567
+        y: 554
+        width: 27
+        height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3025,10 +3030,10 @@ TextureImporter:
       name: Super mario sprite_116
       rect:
         serializedVersion: 2
-        x: 844
-        y: 581
-        width: 32
-        height: 32
+        x: 859
+        y: 573
+        width: 26
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3045,10 +3050,10 @@ TextureImporter:
       name: Super mario sprite_117
       rect:
         serializedVersion: 2
-        x: 876
-        y: 581
-        width: 32
-        height: 32
+        x: 893
+        y: 573
+        width: 30
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3065,10 +3070,10 @@ TextureImporter:
       name: Super mario sprite_118
       rect:
         serializedVersion: 2
-        x: 908
-        y: 581
-        width: 32
-        height: 32
+        x: 933
+        y: 580
+        width: 20
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3485,10 +3490,10 @@ TextureImporter:
       name: Super mario sprite_139
       rect:
         serializedVersion: 2
-        x: 620
-        y: 549
+        x: 679
+        y: 529
         width: 32
-        height: 32
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3545,10 +3550,10 @@ TextureImporter:
       name: Super mario sprite_142
       rect:
         serializedVersion: 2
-        x: 716
-        y: 549
-        width: 32
-        height: 32
+        x: 743
+        y: 536
+        width: 45
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3665,10 +3670,10 @@ TextureImporter:
       name: Super mario sprite_148
       rect:
         serializedVersion: 2
-        x: 908
-        y: 549
+        x: 926
+        y: 535
         width: 32
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3825,10 +3830,10 @@ TextureImporter:
       name: Super mario sprite_156
       rect:
         serializedVersion: 2
-        x: 204
-        y: 517
-        width: 32
-        height: 32
+        x: 232
+        y: 486
+        width: 99
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3905,10 +3910,10 @@ TextureImporter:
       name: Super mario sprite_160
       rect:
         serializedVersion: 2
-        x: 332
-        y: 517
-        width: 32
-        height: 32
+        x: 337
+        y: 486
+        width: 237
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4065,10 +4070,10 @@ TextureImporter:
       name: Super mario sprite_168
       rect:
         serializedVersion: 2
-        x: 588
-        y: 517
+        x: 591
+        y: 485
         width: 32
-        height: 32
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4085,10 +4090,10 @@ TextureImporter:
       name: Super mario sprite_169
       rect:
         serializedVersion: 2
-        x: 620
-        y: 517
+        x: 641
+        y: 496
         width: 32
-        height: 32
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4245,10 +4250,10 @@ TextureImporter:
       name: Super mario sprite_177
       rect:
         serializedVersion: 2
-        x: 876
-        y: 517
+        x: 925
+        y: 469
         width: 32
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4265,10 +4270,10 @@ TextureImporter:
       name: Super mario sprite_178
       rect:
         serializedVersion: 2
-        x: 908
-        y: 517
-        width: 32
-        height: 32
+        x: 928
+        y: 505
+        width: 26
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4285,9 +4290,9 @@ TextureImporter:
       name: Super mario sprite_179
       rect:
         serializedVersion: 2
-        x: 940
-        y: 517
-        width: 32
+        x: 956
+        y: 503
+        width: 36
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5025,10 +5030,10 @@ TextureImporter:
       name: Super mario sprite_216
       rect:
         serializedVersion: 2
-        x: 204
-        y: 453
-        width: 32
-        height: 32
+        x: 232
+        y: 440
+        width: 118
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5105,10 +5110,10 @@ TextureImporter:
       name: Super mario sprite_220
       rect:
         serializedVersion: 2
-        x: 332
-        y: 453
-        width: 32
-        height: 32
+        x: 355
+        y: 440
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5145,10 +5150,10 @@ TextureImporter:
       name: Super mario sprite_222
       rect:
         serializedVersion: 2
-        x: 396
-        y: 453
-        width: 32
-        height: 32
+        x: 400
+        y: 440
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5165,10 +5170,10 @@ TextureImporter:
       name: Super mario sprite_223
       rect:
         serializedVersion: 2
-        x: 428
-        y: 453
-        width: 32
-        height: 32
+        x: 392
+        y: 347
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5465,8 +5470,8 @@ TextureImporter:
       name: Super mario sprite_238
       rect:
         serializedVersion: 2
-        x: 908
-        y: 453
+        x: 928
+        y: 425
         width: 32
         height: 32
       alignment: 0
@@ -5505,10 +5510,10 @@ TextureImporter:
       name: Super mario sprite_240
       rect:
         serializedVersion: 2
-        x: 12
-        y: 421
-        width: 32
-        height: 32
+        x: 6
+        y: 347
+        width: 64
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5545,10 +5550,10 @@ TextureImporter:
       name: Super mario sprite_242
       rect:
         serializedVersion: 2
-        x: 76
-        y: 421
-        width: 32
-        height: 32
+        x: 80
+        y: 388
+        width: 92
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5605,10 +5610,10 @@ TextureImporter:
       name: Super mario sprite_245
       rect:
         serializedVersion: 2
-        x: 172
-        y: 421
-        width: 32
-        height: 32
+        x: 183
+        y: 388
+        width: 92
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5786,9 +5791,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 460
-        y: 421
-        width: 32
-        height: 32
+        y: 393
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6045,8 +6050,8 @@ TextureImporter:
       name: Super mario sprite_267
       rect:
         serializedVersion: 2
-        x: 876
-        y: 421
+        x: 894
+        y: 391
         width: 32
         height: 32
       alignment: 0
@@ -6065,8 +6070,8 @@ TextureImporter:
       name: Super mario sprite_268
       rect:
         serializedVersion: 2
-        x: 908
-        y: 421
+        x: 928
+        y: 391
         width: 32
         height: 32
       alignment: 0
@@ -6085,8 +6090,8 @@ TextureImporter:
       name: Super mario sprite_269
       rect:
         serializedVersion: 2
-        x: 940
-        y: 421
+        x: 962
+        y: 391
         width: 32
         height: 32
       alignment: 0
@@ -6265,10 +6270,10 @@ TextureImporter:
       name: Super mario sprite_278
       rect:
         serializedVersion: 2
-        x: 268
-        y: 389
-        width: 32
-        height: 32
+        x: 288
+        y: 391
+        width: 96
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6585,10 +6590,10 @@ TextureImporter:
       name: Super mario sprite_294
       rect:
         serializedVersion: 2
-        x: 780
-        y: 389
-        width: 32
-        height: 32
+        x: 785
+        y: 339
+        width: 96
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6745,10 +6750,10 @@ TextureImporter:
       name: Super mario sprite_302
       rect:
         serializedVersion: 2
-        x: 76
-        y: 357
-        width: 32
-        height: 32
+        x: 79
+        y: 355
+        width: 96
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6805,10 +6810,10 @@ TextureImporter:
       name: Super mario sprite_305
       rect:
         serializedVersion: 2
-        x: 172
-        y: 357
-        width: 32
-        height: 32
+        x: 183
+        y: 343
+        width: 92
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6865,10 +6870,10 @@ TextureImporter:
       name: Super mario sprite_308
       rect:
         serializedVersion: 2
-        x: 268
-        y: 357
-        width: 32
-        height: 32
+        x: 292
+        y: 360
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6885,10 +6890,10 @@ TextureImporter:
       name: Super mario sprite_309
       rect:
         serializedVersion: 2
-        x: 300
-        y: 357
-        width: 32
-        height: 32
+        x: 309
+        y: 360
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6905,10 +6910,10 @@ TextureImporter:
       name: Super mario sprite_310
       rect:
         serializedVersion: 2
-        x: 332
-        y: 357
-        width: 32
-        height: 32
+        x: 326
+        y: 360
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6985,9 +6990,9 @@ TextureImporter:
       name: Super mario sprite_314
       rect:
         serializedVersion: 2
-        x: 460
-        y: 357
-        width: 32
+        x: 467
+        y: 353
+        width: 34
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7005,9 +7010,9 @@ TextureImporter:
       name: Super mario sprite_315
       rect:
         serializedVersion: 2
-        x: 492
-        y: 357
-        width: 32
+        x: 508
+        y: 353
+        width: 34
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7025,9 +7030,9 @@ TextureImporter:
       name: Super mario sprite_316
       rect:
         serializedVersion: 2
-        x: 524
-        y: 357
-        width: 32
+        x: 550
+        y: 353
+        width: 34
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7065,10 +7070,10 @@ TextureImporter:
       name: Super mario sprite_318
       rect:
         serializedVersion: 2
-        x: 588
-        y: 357
-        width: 32
-        height: 32
+        x: 600
+        y: 362
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7085,10 +7090,10 @@ TextureImporter:
       name: Super mario sprite_319
       rect:
         serializedVersion: 2
-        x: 620
-        y: 357
-        width: 32
-        height: 32
+        x: 619
+        y: 362
+        width: 10
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7106,9 +7111,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 652
-        y: 357
-        width: 32
-        height: 32
+        y: 362
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7125,10 +7130,10 @@ TextureImporter:
       name: Super mario sprite_321
       rect:
         serializedVersion: 2
-        x: 684
-        y: 357
-        width: 32
-        height: 32
+        x: 688
+        y: 362
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7145,10 +7150,10 @@ TextureImporter:
       name: Super mario sprite_322
       rect:
         serializedVersion: 2
-        x: 716
-        y: 357
-        width: 32
-        height: 32
+        x: 706
+        y: 362
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7165,10 +7170,10 @@ TextureImporter:
       name: Super mario sprite_323
       rect:
         serializedVersion: 2
-        x: 748
-        y: 357
-        width: 32
-        height: 32
+        x: 742
+        y: 362
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7265,7 +7270,7 @@ TextureImporter:
       name: Super mario sprite_328
       rect:
         serializedVersion: 2
-        x: 908
+        x: 928
         y: 357
         width: 32
         height: 32
@@ -7305,10 +7310,10 @@ TextureImporter:
       name: Super mario sprite_330
       rect:
         serializedVersion: 2
-        x: 12
-        y: 325
-        width: 32
-        height: 32
+        x: 6
+        y: 268
+        width: 70
+        height: 70
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7345,10 +7350,10 @@ TextureImporter:
       name: Super mario sprite_332
       rect:
         serializedVersion: 2
-        x: 76
-        y: 325
+        x: 94
+        y: 271
         width: 32
-        height: 32
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7385,10 +7390,10 @@ TextureImporter:
       name: Super mario sprite_334
       rect:
         serializedVersion: 2
-        x: 140
-        y: 325
-        width: 32
-        height: 32
+        x: 144
+        y: 299
+        width: 25
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7405,10 +7410,10 @@ TextureImporter:
       name: Super mario sprite_335
       rect:
         serializedVersion: 2
-        x: 172
-        y: 325
-        width: 32
-        height: 32
+        x: 176
+        y: 299
+        width: 25
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7425,10 +7430,10 @@ TextureImporter:
       name: Super mario sprite_336
       rect:
         serializedVersion: 2
-        x: 204
-        y: 325
-        width: 32
-        height: 32
+        x: 207
+        y: 299
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7485,10 +7490,10 @@ TextureImporter:
       name: Super mario sprite_339
       rect:
         serializedVersion: 2
-        x: 364
-        y: 325
-        width: 32
-        height: 32
+        x: 393
+        y: 268
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7525,10 +7530,10 @@ TextureImporter:
       name: Super mario sprite_341
       rect:
         serializedVersion: 2
-        x: 428
-        y: 325
-        width: 32
-        height: 32
+        x: 457
+        y: 268
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7565,10 +7570,10 @@ TextureImporter:
       name: Super mario sprite_343
       rect:
         serializedVersion: 2
-        x: 492
-        y: 325
-        width: 32
-        height: 32
+        x: 521
+        y: 268
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7625,10 +7630,10 @@ TextureImporter:
       name: Super mario sprite_346
       rect:
         serializedVersion: 2
-        x: 588
-        y: 325
-        width: 32
-        height: 32
+        x: 593
+        y: 314
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7645,10 +7650,10 @@ TextureImporter:
       name: Super mario sprite_347
       rect:
         serializedVersion: 2
-        x: 620
-        y: 325
+        x: 625
+        y: 314
         width: 32
-        height: 32
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7665,10 +7670,10 @@ TextureImporter:
       name: Super mario sprite_348
       rect:
         serializedVersion: 2
-        x: 652
-        y: 325
-        width: 32
-        height: 32
+        x: 659
+        y: 314
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7765,10 +7770,10 @@ TextureImporter:
       name: Super mario sprite_353
       rect:
         serializedVersion: 2
-        x: 908
-        y: 325
-        width: 32
-        height: 32
+        x: 935
+        y: 316
+        width: 16
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7945,10 +7950,10 @@ TextureImporter:
       name: Super mario sprite_362
       rect:
         serializedVersion: 2
-        x: 236
-        y: 293
-        width: 32
-        height: 32
+        x: 250
+        y: 302
+        width: 33
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7965,10 +7970,10 @@ TextureImporter:
       name: Super mario sprite_363
       rect:
         serializedVersion: 2
-        x: 268
-        y: 293
-        width: 32
-        height: 32
+        x: 289
+        y: 302
+        width: 29
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7985,10 +7990,10 @@ TextureImporter:
       name: Super mario sprite_364
       rect:
         serializedVersion: 2
-        x: 300
-        y: 293
-        width: 32
-        height: 32
+        x: 328
+        y: 302
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8005,10 +8010,10 @@ TextureImporter:
       name: Super mario sprite_365
       rect:
         serializedVersion: 2
-        x: 332
-        y: 293
-        width: 32
-        height: 32
+        x: 358
+        y: 302
+        width: 11
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8025,10 +8030,10 @@ TextureImporter:
       name: Super mario sprite_366
       rect:
         serializedVersion: 2
-        x: 364
-        y: 293
-        width: 32
-        height: 32
+        x: 289
+        y: 253
+        width: 92
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8185,9 +8190,9 @@ TextureImporter:
       name: Super mario sprite_374
       rect:
         serializedVersion: 2
-        x: 620
-        y: 293
-        width: 32
+        x: 627
+        y: 278
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -8225,8 +8230,8 @@ TextureImporter:
       name: Super mario sprite_376
       rect:
         serializedVersion: 2
-        x: 684
-        y: 293
+        x: 707
+        y: 289
         width: 32
         height: 32
       alignment: 0
@@ -8245,8 +8250,8 @@ TextureImporter:
       name: Super mario sprite_377
       rect:
         serializedVersion: 2
-        x: 716
-        y: 293
+        x: 743
+        y: 289
         width: 32
         height: 32
       alignment: 0
@@ -8265,8 +8270,8 @@ TextureImporter:
       name: Super mario sprite_378
       rect:
         serializedVersion: 2
-        x: 748
-        y: 293
+        x: 779
+        y: 289
         width: 32
         height: 32
       alignment: 0
@@ -8305,8 +8310,8 @@ TextureImporter:
       name: Super mario sprite_380
       rect:
         serializedVersion: 2
-        x: 812
-        y: 293
+        x: 814
+        y: 289
         width: 32
         height: 32
       alignment: 0
@@ -8325,8 +8330,8 @@ TextureImporter:
       name: Super mario sprite_381
       rect:
         serializedVersion: 2
-        x: 844
-        y: 293
+        x: 849
+        y: 289
         width: 32
         height: 32
       alignment: 0
@@ -8345,10 +8350,10 @@ TextureImporter:
       name: Super mario sprite_382
       rect:
         serializedVersion: 2
-        x: 876
-        y: 293
-        width: 32
-        height: 32
+        x: 901
+        y: 294
+        width: 26
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8365,10 +8370,10 @@ TextureImporter:
       name: Super mario sprite_383
       rect:
         serializedVersion: 2
-        x: 908
-        y: 293
-        width: 32
-        height: 32
+        x: 929
+        y: 288
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8385,10 +8390,10 @@ TextureImporter:
       name: Super mario sprite_384
       rect:
         serializedVersion: 2
-        x: 940
-        y: 293
-        width: 32
-        height: 32
+        x: 957
+        y: 294
+        width: 26
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8665,10 +8670,10 @@ TextureImporter:
       name: Super mario sprite_398
       rect:
         serializedVersion: 2
-        x: 556
-        y: 261
-        width: 32
-        height: 32
+        x: 575
+        y: 223
+        width: 39
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8705,9 +8710,9 @@ TextureImporter:
       name: Super mario sprite_400
       rect:
         serializedVersion: 2
-        x: 620
-        y: 261
-        width: 32
+        x: 628
+        y: 244
+        width: 26
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -8745,10 +8750,10 @@ TextureImporter:
       name: Super mario sprite_402
       rect:
         serializedVersion: 2
-        x: 684
-        y: 261
-        width: 32
-        height: 32
+        x: 701
+        y: 234
+        width: 44
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8785,10 +8790,10 @@ TextureImporter:
       name: Super mario sprite_404
       rect:
         serializedVersion: 2
-        x: 748
-        y: 261
-        width: 32
-        height: 32
+        x: 760
+        y: 150
+        width: 115
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8885,10 +8890,10 @@ TextureImporter:
       name: Super mario sprite_409
       rect:
         serializedVersion: 2
-        x: 908
-        y: 261
-        width: 32
-        height: 32
+        x: 935
+        y: 260
+        width: 16
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8925,10 +8930,10 @@ TextureImporter:
       name: Super mario sprite_411
       rect:
         serializedVersion: 2
-        x: 12
-        y: 229
-        width: 32
-        height: 32
+        x: 16
+        y: 21
+        width: 90
+        height: 237
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8985,10 +8990,10 @@ TextureImporter:
       name: Super mario sprite_414
       rect:
         serializedVersion: 2
-        x: 108
-        y: 229
-        width: 32
-        height: 32
+        x: 125
+        y: 123
+        width: 373
+        height: 125
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9225,10 +9230,10 @@ TextureImporter:
       name: Super mario sprite_426
       rect:
         serializedVersion: 2
-        x: 492
-        y: 229
-        width: 32
-        height: 32
+        x: 522
+        y: 227
+        width: 28
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9282,13 +9287,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Super mario sprite_429
+      name: Coin
       rect:
         serializedVersion: 2
-        x: 588
-        y: 229
-        width: 32
-        height: 32
+        x: 575
+        y: 223
+        width: 39
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9465,10 +9470,10 @@ TextureImporter:
       name: Super mario sprite_438
       rect:
         serializedVersion: 2
-        x: 876
-        y: 229
-        width: 32
-        height: 32
+        x: 919
+        y: 194
+        width: 71
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9825,10 +9830,10 @@ TextureImporter:
       name: Super mario sprite_456
       rect:
         serializedVersion: 2
-        x: 492
-        y: 197
-        width: 32
-        height: 32
+        x: 505
+        y: 161
+        width: 178
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9945,10 +9950,10 @@ TextureImporter:
       name: Super mario sprite_462
       rect:
         serializedVersion: 2
-        x: 684
-        y: 197
-        width: 32
-        height: 32
+        x: 702
+        y: 177
+        width: 41
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10665,10 +10670,10 @@ TextureImporter:
       name: Super mario sprite_498
       rect:
         serializedVersion: 2
-        x: 876
-        y: 165
-        width: 32
-        height: 32
+        x: 902
+        y: 178
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10685,10 +10690,10 @@ TextureImporter:
       name: Super mario sprite_499
       rect:
         serializedVersion: 2
-        x: 908
-        y: 165
-        width: 32
-        height: 32
+        x: 919
+        y: 178
+        width: 71
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11025,10 +11030,10 @@ TextureImporter:
       name: Super mario sprite_516
       rect:
         serializedVersion: 2
-        x: 492
-        y: 133
-        width: 32
-        height: 32
+        x: 510
+        y: 108
+        width: 90
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11085,10 +11090,10 @@ TextureImporter:
       name: Super mario sprite_519
       rect:
         serializedVersion: 2
-        x: 588
-        y: 133
-        width: 32
-        height: 32
+        x: 607
+        y: 104
+        width: 102
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11165,10 +11170,10 @@ TextureImporter:
       name: Super mario sprite_523
       rect:
         serializedVersion: 2
-        x: 716
-        y: 133
-        width: 32
-        height: 32
+        x: 731
+        y: 78
+        width: 29
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11206,9 +11211,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 780
-        y: 133
-        width: 32
-        height: 32
+        y: 60
+        width: 59
+        height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11245,10 +11250,10 @@ TextureImporter:
       name: Super mario sprite_527
       rect:
         serializedVersion: 2
-        x: 844
-        y: 133
-        width: 32
-        height: 32
+        x: 860
+        y: 109
+        width: 26
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11285,10 +11290,10 @@ TextureImporter:
       name: Super mario sprite_529
       rect:
         serializedVersion: 2
-        x: 908
-        y: 133
-        width: 32
-        height: 32
+        x: 911
+        y: 98
+        width: 69
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11385,10 +11390,10 @@ TextureImporter:
       name: Super mario sprite_534
       rect:
         serializedVersion: 2
-        x: 108
-        y: 101
-        width: 32
-        height: 32
+        x: 127
+        y: 63
+        width: 44
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11425,10 +11430,10 @@ TextureImporter:
       name: Super mario sprite_536
       rect:
         serializedVersion: 2
-        x: 172
-        y: 101
-        width: 32
-        height: 32
+        x: 178
+        y: 61
+        width: 43
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11485,10 +11490,10 @@ TextureImporter:
       name: Super mario sprite_539
       rect:
         serializedVersion: 2
-        x: 268
-        y: 101
-        width: 32
-        height: 32
+        x: 290
+        y: 64
+        width: 46
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11525,8 +11530,8 @@ TextureImporter:
       name: Super mario sprite_541
       rect:
         serializedVersion: 2
-        x: 332
-        y: 101
+        x: 357
+        y: 72
         width: 32
         height: 32
       alignment: 0
@@ -11545,8 +11550,8 @@ TextureImporter:
       name: Super mario sprite_542
       rect:
         serializedVersion: 2
-        x: 364
-        y: 101
+        x: 390
+        y: 72
         width: 32
         height: 32
       alignment: 0
@@ -11565,8 +11570,8 @@ TextureImporter:
       name: Super mario sprite_543
       rect:
         serializedVersion: 2
-        x: 396
-        y: 101
+        x: 423
+        y: 72
         width: 32
         height: 32
       alignment: 0
@@ -11585,8 +11590,8 @@ TextureImporter:
       name: Super mario sprite_544
       rect:
         serializedVersion: 2
-        x: 428
-        y: 101
+        x: 456
+        y: 72
         width: 32
         height: 32
       alignment: 0
@@ -11685,10 +11690,10 @@ TextureImporter:
       name: Super mario sprite_549
       rect:
         serializedVersion: 2
-        x: 588
-        y: 101
-        width: 32
-        height: 32
+        x: 590
+        y: 34
+        width: 42
+        height: 68
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11705,10 +11710,10 @@ TextureImporter:
       name: Super mario sprite_550
       rect:
         serializedVersion: 2
-        x: 620
-        y: 101
-        width: 32
-        height: 32
+        x: 646
+        y: 35
+        width: 57
+        height: 67
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -12045,10 +12050,10 @@ TextureImporter:
       name: Super mario sprite_567
       rect:
         serializedVersion: 2
-        x: 204
-        y: 69
-        width: 32
-        height: 32
+        x: 232
+        y: 64
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -12225,10 +12230,10 @@ TextureImporter:
       name: Super mario sprite_576
       rect:
         serializedVersion: 2
-        x: 492
-        y: 69
-        width: 32
-        height: 32
+        x: 512
+        y: 34
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -12445,10 +12450,10 @@ TextureImporter:
       name: Super mario sprite_587
       rect:
         serializedVersion: 2
-        x: 844
-        y: 69
-        width: 32
-        height: 32
+        x: 860
+        y: 60
+        width: 35
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13057,6 +13062,106 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7d5db8c28c894f04583403ece74f0abc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super mario sprite_150
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d8a41fe38f289419daf84625f2da83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super mario sprite_180
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 362
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5682a8575698395469c756fdd0389204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super mario sprite_181
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 362
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e338086ee244246887286c07781450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super mario sprite_182
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 362
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4907ee1b86ed34fae922d32c4a1744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super mario sprite_184
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 362
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0bea974730cd2489592b8877759560
       vertices: []
       indices: 
       edges: []
