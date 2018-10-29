@@ -810,13 +810,13 @@ TextureImporter:
       name: Gumba_1
       rect:
         serializedVersion: 2
-        x: 156
+        x: 160
         y: 677
-        width: 48
-        height: 46
+        width: 37
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -830,10 +830,10 @@ TextureImporter:
       name: Gumba_2
       rect:
         serializedVersion: 2
-        x: 204
+        x: 212
         y: 677
-        width: 46
-        height: 45
+        width: 32
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -847,33 +847,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Super mario sprite_7
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 677
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce486dd8380d7e04fae14875c7e85ca6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Gumba_3
       rect:
         serializedVersion: 2
-        x: 249
-        y: 677
-        width: 47
-        height: 45
+        x: 258
+        y: 678
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

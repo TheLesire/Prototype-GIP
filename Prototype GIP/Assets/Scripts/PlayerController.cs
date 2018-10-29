@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] LayerMask GroundLayer;
 
 
-
+    private Animator marioAnimator;
     Rigidbody2D rb; //Parameter Rigidbody2D is rd
     SpriteRenderer sr; // parameter SpriteRenderer wordt sr
     float curSpeed = 0f;
@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     
     private void Awake() //rb en sr goed instellen
     {
+        marioAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
     }
@@ -33,11 +34,13 @@ public class PlayerController : MonoBehaviour
         curSpeed = Input.GetAxis("Horizontal") * maxSpeed; //De snelheid is gelijk aan de richting*de maximumsnelheid
 
         ChangeDirection(); //roept de functie ChangeDirection op
+        marioAnimator.SetFloat("Speed", Mathf.Abs(curSpeed));
 
-        if(Input.GetKeyDown(KeyCode.Space) && isGrounded) //kijk of het personage kan en wil springen
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded) //kijk of het personage kan en wil springen
         {
             jump = true; //srping
         }
+  
     }
 
 
@@ -79,9 +82,10 @@ public class PlayerController : MonoBehaviour
         {
             jump = false; //Dan kan je niet nog is jumpen
             rb.AddForce(Vector2.up * jumpPower); //versnel aan hand van de y functie * de jumpPower
+            marioAnimator.SetBool("isTrigger", jump);
         }
-        
 
+        
     }
 }
 
