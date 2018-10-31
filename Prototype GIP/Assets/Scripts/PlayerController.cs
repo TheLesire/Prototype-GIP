@@ -7,13 +7,14 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class PlayerController : MonoBehaviour
 {
+    //Serialized
     [SerializeField] float maxSpeed = 7f; //visueel decleraren (ook in Unity)
     [SerializeField] float jumpPower = 330f;
     [SerializeField] Transform GroundTrigger;
     [SerializeField] float GroundTriggerRadius = 1f;
     [SerializeField] LayerMask GroundLayer;
 
-
+    //Movement
     private Animator marioAnimator;
     Rigidbody2D rb; //Parameter Rigidbody2D is rd
     SpriteRenderer sr; // parameter SpriteRenderer wordt sr
@@ -21,7 +22,11 @@ public class PlayerController : MonoBehaviour
     bool jump = false;
     bool isGrounded = false;
 
-    
+    //Health
+    public int health = 10;
+    public float InvincibleTimeAfterHurt = 2;
+
+
     private void Awake() //rb en sr goed instellen
     {
         marioAnimator = GetComponent<Animator>();
@@ -36,17 +41,18 @@ public class PlayerController : MonoBehaviour
         ChangeDirection(); //roept de functie ChangeDirection op
         marioAnimator.SetFloat("Speed", Mathf.Abs(curSpeed));
 
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded) //kijk of het personage kan en wil springen
         {
             jump = true; //srping
         }
-  
     }
 
 
     private void FixedUpdate()
     {
         isGrounded = Physics2D.OverlapCircle(GroundTrigger.position, GroundTriggerRadius, GroundLayer); //vraagt zich af of het personage op de grond staat
+        marioAnimator.SetBool("IsGrounded", isGrounded);
         Move(); //roept de functie bewegen op   
         Jump(); //roept de functie springen op
     }
@@ -65,11 +71,11 @@ public class PlayerController : MonoBehaviour
 
     void ChangeDirection() //De functie om het personage van kant te laten veranderen
     {
-        if( curSpeed > 0 && sr.flipX ) //Als de tegenwoordige snelheid kleiner is als 0 en het personage is nog niet omgedraaid
+        if (curSpeed > 0 && sr.flipX) //Als de tegenwoordige snelheid kleiner is als 0 en het personage is nog niet omgedraaid
         {
             sr.flipX = false; //Draai dan om
         }
-        else if( curSpeed < 0 && !sr.flipX) //Als de tegenwoordige snelheid kleiner is als 0 en het personage is al omgedraaid
+        else if (curSpeed < 0 && !sr.flipX) //Als de tegenwoordige snelheid kleiner is als 0 en het personage is al omgedraaid
         {
             sr.flipX = true; //Draai dan terug om
         }
@@ -78,14 +84,57 @@ public class PlayerController : MonoBehaviour
 
     void Jump() //De functie om te springen
     {
-        if(jump) //als je wilt jumpen
+        if (jump) //als je wilt jumpen
         {
             jump = false; //Dan kan je niet nog is jumpen
             rb.AddForce(Vector2.up * jumpPower); //versnel aan hand van de y functie * de jumpPower
-            marioAnimator.SetBool("isTrigger", jump);
         }
 
-        
+    }
+
+    public void TriggerHurt(float hurtTime)
+    {
+        StartCoroutine(HurtBlinker(hurtTime));
+    }
+
+    IEnumerator HurtBlinker(float hurtTime)
+    {
+        //Ignore collision with enemies
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+        int playerLayer = LayerMask.NameToLayer("Player");
+        Physics2D.IgnoreLayerCollision(enemyLayer, playerLayer);
+
+        //Start looping blink animation
+        marioAnimator.SetLayerWeight(1, 1);
+
+        //wait
+        yield return new WaitForSeconds(hurtTime);
+
+        //Stop blinking and re-enable collision
+        marioAnimator.SetLayerWeight(1, 0);
+        Physics2D.IgnoreLayerCollision(enemyLayer, playerLayer, false);
+    }
+
+    void Hurt()
+    {
+        health--;
+        if(health <= 0)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
+        else
+        {
+            TriggerHurt(InvincibleTimeAfterHurt);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Patrol enemy = collision.collider.GetComponent<Patrol>();
+        if (enemy != null)
+        {
+            Hurt();
+        }
     }
 }
 
