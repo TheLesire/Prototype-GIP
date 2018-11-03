@@ -18,7 +18,7 @@ public class Patrol : MonoBehaviour
         RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, distance, mask);
         if(groundInfo.collider == false)
         {
-            if(movingRight == true)
+            if(movingRight)
             {
                 transform.eulerAngles = new Vector3(0, -180, 0);
                 movingRight = false;

@@ -8,12 +8,13 @@ public class ScoreScript : MonoBehaviour {
     Text text;
     public static int coinAmount;
 
-	void Start () {
+	void Start ()
+    {
         text = GetComponent<Text> ();
 	}
 	
-	void Update () {
-
+	void Update ()
+    {
         text.text = coinAmount.ToString();
 	}
 }
