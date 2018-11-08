@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(SpriteRenderer))]
+
 public class PlayerController : MonoBehaviour
 {
     //Serialized
@@ -44,12 +46,12 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded) //kijk of het personage kan en wil springen
         {
-            jump = true; //srping
+            jump = true; //spring
         }
     }
 
 
-    private void FixedUpdate()
+    private void FixedUpdate() //wordt opgeroepen bij een nieuwe update van de scene (Vooral gebruiken bij Rigidbody's)
     {
         isGrounded = Physics2D.OverlapCircle(GroundTrigger.position, GroundTriggerRadius, GroundLayer); //vraagt zich af of het personage op de grond staat
         marioAnimator.SetBool("IsGrounded", isGrounded);
