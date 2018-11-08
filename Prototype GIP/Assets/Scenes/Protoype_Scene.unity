@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 733422589}
   - component: {fileID: 733422584}
   m_Layer: 0
-  m_Name: personage
+  m_Name: Personage
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,7 +677,7 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 1024
-  health: 1
+  health: 5
   InvincibleTimeAfterHurt: 2
 --- !u!1 &766050259
 GameObject:
@@ -1294,7 +1294,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1369873312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.576, y: 5.932, z: 1.15}
+  m_LocalPosition: {x: 7.576, y: 5.83, z: 1.15}
   m_LocalScale: {x: 2.7099152, y: 2.9103525, z: 2.6725}
   m_Children: []
   m_Father: {fileID: 0}
