@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     float curSpeed = 0f;
     bool jump = false;
     bool isGrounded = false;
+    public int points;
 
     //Health
     public int health = 10;
