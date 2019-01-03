@@ -17,7 +17,7 @@ TextureImporter:
     21300024: GroundBlockDownDownRight
     21300026: Spriteoptie2_0
     21300028: Breakable
-    21300030: Spriteoptie2_2
+    21300030: QuestionMark
     21300032: Spriteoptie2_3
     21300034: Spriteoptie2_4
     21300036: Spriteoptie2_5
@@ -26,11 +26,11 @@ TextureImporter:
     21300042: Spriteoptie2_8
     21300044: Spriteoptie2_9
     21300046: Spriteoptie2_10
-    21300048: Spriteoptie2_11
-    21300050: Spriteoptie2_12
+    21300048: TilitedPipeTopRight
+    21300050: TilitedPipeMidRight
     21300052: Spriteoptie2_13
-    21300054: Spriteoptie2_14
-    21300056: Spriteoptie2_15
+    21300054: PipeTopLeft
+    21300056: PipeTopRight
     21300058: Spriteoptie2_16
     21300060: Spriteoptie2_17
     21300062: Spriteoptie2_18
@@ -74,11 +74,11 @@ TextureImporter:
     21300138: Spriteoptie2_56
     21300140: Spriteoptie2_57
     21300142: Spriteoptie2_58
-    21300144: Spriteoptie2_59
-    21300146: Spriteoptie2_60
+    21300144: TiltedPipeTopLeft
+    21300146: TiltedPipeMidLeft
     21300148: Spriteoptie2_61
-    21300150: Spriteoptie2_62
-    21300152: Spriteoptie2_63
+    21300150: PipeMidLeft
+    21300152: PipeMidRight
     21300154: Spriteoptie2_64
     21300156: Spriteoptie2_65
     21300158: Spriteoptie2_66
@@ -2694,8 +2694,8 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
-  spriteMeshType: 0
+  spriteExtrude: 32
+  spriteMeshType: 1
   alignment: 9
   spritePivot: {x: 0.49950615, y: 0.5}
   spritePixelsToUnits: 100
@@ -2777,13 +2777,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spriteoptie2_2
+      name: QuestionMark
       rect:
         serializedVersion: 2
-        x: 34
+        x: 35
         y: 924
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2957,13 +2957,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spriteoptie2_11
+      name: TilitedPipeTopRight
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 924
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2977,13 +2977,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spriteoptie2_12
+      name: TilitedPipeMidRight
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 924
-        width: 17
-        height: 17
+        width: 16
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3017,16 +3017,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spriteoptie2_14
+      name: PipeTopLeft
       rect:
         serializedVersion: 2
-        x: 238
-        y: 924
-        width: 17
-        height: 17
+        x: 239
+        y: 925
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -3037,16 +3037,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spriteoptie2_15
+      name: PipeTopRight
       rect:
         serializedVersion: 2
-        x: 255
-        y: 924
-        width: 17
-        height: 17
+        x: 256
+        y: 925
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 1, z: 2, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -3917,13 +3917,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spriteoptie2_59
+      name: TiltedPipeTopLeft
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 907
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3937,13 +3937,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spriteoptie2_60
+      name: TiltedPipeMidLeft
       rect:
         serializedVersion: 2
-        x: 204
-        y: 907
-        width: 17
-        height: 17
+        x: 205
+        y: 909
+        width: 16
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3977,16 +3977,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spriteoptie2_62
+      name: PipeMidLeft
       rect:
         serializedVersion: 2
-        x: 238
+        x: 241
         y: 907
-        width: 17
-        height: 17
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -3997,16 +3997,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spriteoptie2_63
+      name: PipeMidRight
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 907
-        width: 17
-        height: 17
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 2, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0

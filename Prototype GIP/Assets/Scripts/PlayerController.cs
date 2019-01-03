@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float maxSpeed = 7f; //visueel decleraren (ook in Unity)
     [SerializeField] float jumpPower = 330f;
     [SerializeField] Transform GroundTrigger;
-    [SerializeField] float GroundTriggerRadius = 1f;
     [SerializeField] LayerMask GroundLayer;
 
     //Movement
@@ -21,9 +20,11 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb; //Parameter Rigidbody2D is rd
     SpriteRenderer sr; // parameter SpriteRenderer wordt sr
     float curSpeed = 0f;
-    bool jump = false;
+    bool canJump = false;
     bool isGrounded = false;
     public int points;
+    private const float GroundTriggerRadius = 0.1f;
+
 
     //Health
     public int health = 10;
@@ -41,13 +42,13 @@ public class PlayerController : MonoBehaviour
     {
         curSpeed = Input.GetAxis("Horizontal") * maxSpeed; //De snelheid is gelijk aan de richting*de maximumsnelheid
 
-        ChangeDirection(); //roept de functie ChangeDirection op
+        FlipCharacterSpritesX(); //roept de functie FlipCharacterSpritesX op
         marioAnimator.SetFloat("Speed", Mathf.Abs(curSpeed));
 
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded) //kijk of het personage kan en wil springen
+        if (isGrounded && Input.GetKeyDown(KeyCode.Space)) //kijk of het personage kan en wil springen
         {
-            jump = true; //spring
+            canJump = true; //spring
         }
     }
 
@@ -72,13 +73,13 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    void ChangeDirection() //De functie om het personage van kant te laten veranderen
+    void FlipCharacterSpritesX() //De functie om het personage van kant te laten veranderen
     {
-        if (curSpeed > 0 && sr.flipX) //Als de tegenwoordige snelheid kleiner is als 0 en het personage is nog niet omgedraaid
+        if (sr.flipX && curSpeed > 0) //Als de tegenwoordige snelheid kleiner is als 0 en het personage is nog niet omgedraaid
         {
             sr.flipX = false; //Draai dan om
         }
-        else if (curSpeed < 0 && !sr.flipX) //Als de tegenwoordige snelheid kleiner is als 0 en het personage is al omgedraaid
+        else if (!sr.flipX && curSpeed < 0 ) //Als de tegenwoordige snelheid kleiner is als 0 en het personage is al omgedraaid
         {
             sr.flipX = true; //Draai dan terug om
         }
@@ -87,9 +88,9 @@ public class PlayerController : MonoBehaviour
 
     void Jump() //De functie om te springen
     {
-        if (jump) //als je wilt jumpen
+        if (canJump) //als je wilt jumpen
         {
-            jump = false; //Dan kan je niet nog is jumpen
+            canJump = false; //Dan kan je niet nog is jumpen
             rb.AddForce(Vector2.up * jumpPower); //versnel aan hand van de y functie * de jumpPower
         }
 

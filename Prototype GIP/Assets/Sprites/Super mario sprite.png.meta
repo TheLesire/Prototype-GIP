@@ -3691,9 +3691,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 12
-        y: 515
-        width: 32
-        height: 34
+        y: 516
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4290,10 +4290,10 @@ TextureImporter:
       name: Mario_walk
       rect:
         serializedVersion: 2
-        x: 10
-        y: 478
-        width: 32
-        height: 32
+        x: 11
+        y: 479
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4310,9 +4310,9 @@ TextureImporter:
       name: Mario_Walk_2
       rect:
         serializedVersion: 2
-        x: 49
-        y: 478
-        width: 32
+        x: 54
+        y: 479
+        width: 23
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4330,10 +4330,10 @@ TextureImporter:
       name: Mario_Walk_3
       rect:
         serializedVersion: 2
-        x: 87
-        y: 478
-        width: 32
-        height: 32
+        x: 91
+        y: 479
+        width: 25
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4350,8 +4350,8 @@ TextureImporter:
       name: Super mario sprite_183
       rect:
         serializedVersion: 2
-        x: 108
-        y: 485
+        x: 178
+        y: 509
         width: 32
         height: 32
       alignment: 0
@@ -4890,8 +4890,8 @@ TextureImporter:
       name: Super mario sprite_210
       rect:
         serializedVersion: 2
-        x: 12
-        y: 453
+        x: 15
+        y: 433
         width: 32
         height: 32
       alignment: 0
@@ -4910,8 +4910,8 @@ TextureImporter:
       name: Super mario sprite_211
       rect:
         serializedVersion: 2
-        x: 44
-        y: 453
+        x: 45
+        y: 432
         width: 32
         height: 32
       alignment: 0
@@ -4930,8 +4930,8 @@ TextureImporter:
       name: Super mario sprite_212
       rect:
         serializedVersion: 2
-        x: 76
-        y: 453
+        x: 53
+        y: 432
         width: 32
         height: 32
       alignment: 0
@@ -4950,8 +4950,8 @@ TextureImporter:
       name: Super mario sprite_213
       rect:
         serializedVersion: 2
-        x: 108
-        y: 453
+        x: 107
+        y: 434
         width: 32
         height: 32
       alignment: 0
@@ -4970,8 +4970,8 @@ TextureImporter:
       name: Super mario sprite_214
       rect:
         serializedVersion: 2
-        x: 140
-        y: 453
+        x: 190
+        y: 460
         width: 32
         height: 32
       alignment: 0

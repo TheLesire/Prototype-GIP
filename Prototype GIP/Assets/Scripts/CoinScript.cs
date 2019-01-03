@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coin_Script : MonoBehaviour {
+public class CoinScript : MonoBehaviour {
 
     PlayerController player;
-    public int points;
+    public int points = 1;
     void Start ()
     {
         player = FindObjectOfType<PlayerController>();
